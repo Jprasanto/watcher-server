@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      User.hasMany(models.Order)
+      User.hasMany(models.Watchlist)
     }
   }
   User.init({
@@ -36,7 +36,11 @@ module.exports = (sequelize, DataTypes) => {
         notNull: { msg: "Password is required" },
         notEmpty: { msg: "Password is required" },
       }
-    }
+    },
+    role: {
+      type: DataTypes.STRING,
+      defaultValue: "standard"
+    },
   }, {
     sequelize,
     modelName: 'User',

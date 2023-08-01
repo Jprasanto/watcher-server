@@ -5,6 +5,6 @@ const ControllerStock = require('../controllers/controllerStock')
 router.get('/', ControllerStock.ihsgData)
 
 router.get('/stocks/:symbol', ControllerStock.stockDataGraph)
-router.post('/stocks/:symbol', ControllerStock.myWl)
+router.post('/wlist/:TickerId', ControllerStock.myWl)
 
 module.exports = router

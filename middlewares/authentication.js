@@ -11,10 +11,12 @@ const authentication = async (req, res, next) => {
 
         const result = await User.findByPk(payload.id);
         if (!result) throw { name: "Invalid email/password" }
+
         req.user = {
             id: result.id,
             email: result.email,
         }
+        console.log(req.user, "AUTEN")
         next();
     } catch (err) {
         console.log(err, "err authentication")
