@@ -1,0 +1,602 @@
+[
+    {
+        "name": "BANK CENTRAL ASIA TBK.",
+        "symbol": "BBCA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK RAKYAT INDONESIA (PERSERO) TBK.",
+        "symbol": "BBRI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "TELEKOMUNIKASI INDONESIA (PERSERO) TBK.",
+        "symbol": "TLKM.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK MANDIRI (PERSERO) TBK.",
+        "symbol": "BMRI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "UNILEVER INDONESIA TBK.",
+        "symbol": "UNVR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ASTRA INTERNATIONAL TBK.",
+        "symbol": "ASII.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "H.M. SAMPOERNA TBK.",
+        "symbol": "HMSP.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SINARMAS MULTIARTHA TBK.",
+        "symbol": "SMMA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "CHANDRA ASRI PETROCHEMICAL TBK.",
+        "symbol": "TPIA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK NEGARA INDONESIA (PERSERO) TBK.",
+        "symbol": "BBNI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDOFOOD CBP SUKSES MAKMUR TBK.",
+        "symbol": "ICBP.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "GUDANG GARAM TBK.",
+        "symbol": "GGRM.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "POLLUX PROPERTI INDONESIA TBK.",
+        "symbol": "POLL.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "CHAROEN POKPHAND INDONESIA TBK",
+        "symbol": "CPIN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BARITO PACIFIC TBK.",
+        "symbol": "BRPT.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "UNITED TRACTORS TBK.",
+        "symbol": "UNTR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SEMEN INDONESIA (PERSERO) TBK.",
+        "symbol": "SMGR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDOFOOD SUKSES MAKMUR TBK.",
+        "symbol": "INDF.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "KALBE FARMA TBK.",
+        "symbol": "KLBF.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDOCEMENT TUNGGAL PRAKARSA TBK.",
+        "symbol": "INTP.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BAYAN RESOURCES TBK.",
+        "symbol": "BYAN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDORITEL MAKMUR INTERNASIONAL TBK.",
+        "symbol": "DNET.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK MAYAPADA INTERNASIONAL TBK.",
+        "symbol": "MAYA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK MEGA TBK.",
+        "symbol": "MEGA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SARANA MENARA NUSANTARA TBK.",
+        "symbol": "TOWR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MAYORA INDAH TBK.",
+        "symbol": "MYOR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ADARO ENERGY TBK.",
+        "symbol": "ADRO.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "JASA MARGA (PERSERO) TBK.",
+        "symbol": "JSMR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SUMBER ALFARIA TRIJAYA TBK.",
+        "symbol": "AMRT.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MITRA KELUARGA KARYASEHAT TBK.",
+        "symbol": "MIKA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK PERMATA TBK.",
+        "symbol": "BNLI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "TRANSCOAL PACIFIC TBK",
+        "symbol": "TCPI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "PERUSAHAAN GAS NEGARA TBK.",
+        "symbol": "PGAS.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK DANAMON INDONESIA TBK.",
+        "symbol": "BDMN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MULTI BINTANG INDONESIA TBK.",
+        "symbol": "MLBI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDAH KIAT PULP & PAPER TBK.",
+        "symbol": "INKP.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ELANG MAHKOTA TEKNOLOGI TBK.",
+        "symbol": "EMTK.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK TABUNGAN PENSIUNAN NASIONAL SYARIAH TBK.",
+        "symbol": "BTPS.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MERDEKA COPPER GOLD TBK.",
+        "symbol": "MDKA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "XL AXIATA TBK.",
+        "symbol": "EXCL.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK PAN INDONESIA TBK",
+        "symbol": "PNBN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "PAKUWON JATI TBK.",
+        "symbol": "PWON.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "VALE INDONESIA TBK.",
+        "symbol": "INCO.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ACE HARDWARE INDONESIA TBK.",
+        "symbol": "ACES.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BUKIT ASAM TBK.",
+        "symbol": "PTBA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "TOWER BERSAMA INFRASTRUCTURE TBK.",
+        "symbol": "TBIG.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "CAPITAL FINANCIAL INDONESIA TBK.",
+        "symbol": "CASA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK BTPN TBK.",
+        "symbol": "BTPN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SMARTFREN TELECOM TBK.",
+        "symbol": "FREN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK OCBC NISP TBK.",
+        "symbol": "NISP.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK CIMB NIAGA TBK.",
+        "symbol": "BNGA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BUMI SERPONG DAMAI TBK.",
+        "symbol": "BSDE.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ASTRA AGRO LESTARI TBK.",
+        "symbol": "AALI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "PABRIK KERTAS TJIWI KIMIA TBK.",
+        "symbol": "TKIM.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDUSTRI JAMU DAN FARMASI SIDO MUNCUL TBK.",
+        "symbol": "SIDO.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ULTRA JAYA MILK INDUSTRY & TRADING COMPANY, TBK.",
+        "symbol": "ULTJ.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK TABUNGAN NEGARA (PERSERO) TBK.",
+        "symbol": "BBTN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "FAJAR SURYA WISESA TBK.",
+        "symbol": "FASW.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "JAPFA COMFEED INDONESIA TBK.",
+        "symbol": "JPFA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "CIPUTRA DEVELOPMENT TBK.",
+        "symbol": "CTRA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SURYA CITRA MEDIA TBK.",
+        "symbol": "SCMA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "WIJAYA KARYA (PERSERO) TBK.",
+        "symbol": "WIKA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MEDIA NUSANTARA CITRA TBK.",
+        "symbol": "MNCN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "LIPPO KARAWACI TBK.",
+        "symbol": "LPKR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "METROPOLITAN KENTJANA TBK.",
+        "symbol": "MKPI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ANEKA TAMBANG TBK.",
+        "symbol": "ANTM.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "DIAN SWASTATIKA SENTOSA TBK",
+        "symbol": "DSSA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MNC VISION NETWORKS TBK.",
+        "symbol": "IPTV.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "WASKITA KARYA (PERSERO) TBK.",
+        "symbol": "WSKT.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK MAYBANK INDONESIA TBK.",
+        "symbol": "BNII.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MITRA ADIPERKASA TBK.",
+        "symbol": "MAPI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "CIKARANG LISTRINDO TBK.",
+        "symbol": "POWR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDO TAMBANGRAYA MEGAH TBK.",
+        "symbol": "ITMG.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ASURANSI JIWA SINARMAS MSIG TBK.",
+        "symbol": "LIFE.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SUMMARECON AGUNG TBK.",
+        "symbol": "SMRA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "PLAZA INDONESIA REALTY TBK.",
+        "symbol": "PLIN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "PURADELTA LESTARI TBK.",
+        "symbol": "DMAS.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDOSAT TBK.",
+        "symbol": "ISAT.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MEDCO ENERGI INTERNASIONAL TBK.",
+        "symbol": "MEDC.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ASURANSI KRESNA MITRA TBK.",
+        "symbol": "ASMI.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SILOAM INTERNATIONAL HOSPITALS TBK.",
+        "symbol": "SILO.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INDONESIAN PARADISE PROPERTY TBK.",
+        "symbol": "INPP.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "AKR CORPORINDO TBK.",
+        "symbol": "AKRA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SMART TBK.",
+        "symbol": "SMAR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BENTOEL INTERNASIONAL INVESTAMA TBK.",
+        "symbol": "RMBA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MNC LAND TBK.",
+        "symbol": "KPIG.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "ADIRA DINAMIKA MULTI FINANCE TBK.",
+        "symbol": "ADMF.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "INTI BANGUN SEJAHTERA TBK.",
+        "symbol": "IBST.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MAP AKTIF ADIPERKASA TBK.",
+        "symbol": "MAPA.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "LINK NET TBK.",
+        "symbol": "LINK.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SARATOGA INVESTAMA SEDAYA TBK.",
+        "symbol": "SRTG.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK PEMBANGUNAN DAERAH JAWA TIMUR TBK.",
+        "symbol": "BJTM.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "GARUDAFOOD PUTRA PUTRI JAYA TBK.",
+        "symbol": "GOOD.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK SINARMAS TBK.",
+        "symbol": "BSIM.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MEDIKALOKA HERMINA TBK.",
+        "symbol": "HEAL.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "NUSANTARA PROPERTI INTERNASIONAL TBK.",
+        "symbol": "NATO.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "BANK PEMBANGUNAN DAERAH JAWA BARAT DAN BANTEN TBK.",
+        "symbol": "BJBR.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "MATAHARI DEPARTMENT STORE TBK.",
+        "symbol": "LPPF.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "KRESNA GRAHA INVESTAMA TBK.",
+        "symbol": "KREN.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    },
+    {
+        "name": "SIANTAR TOP TBK.",
+        "symbol": "STTP.XIDX",
+        "has_intraday": false,
+        "has_eod": true
+    }
+]
