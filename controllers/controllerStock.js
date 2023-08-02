@@ -1,14 +1,20 @@
 const { Watchlist, Composite, Ticker } = require('../models/index')
 const axios = require('axios')
-// const midtransClient = require("midtrans-client");
+
+
 
 class Controller {
     static async ihsgData(req, res, next) {
         try {
+            const { access_token } = req.headers
+            console.log(access_token)
+            if (!access_token) throw { name: "Please login first" }
+
             const ihsg = await Composite.findAll({
                 attributes: {
                     exclude: ['createdAt', 'updatedAt', 'id']
-                }
+                },
+                order: [['id', "DESC"]]
             })
             res.status(200).json({
                 ihsg
@@ -21,15 +27,21 @@ class Controller {
         }
     }
     static stockDataGraph(req, res, next) {
+
         const { symbol } = req.params
+        const { access_token } = req.headers
+        // console.log(access_token)
+        if (!access_token) throw { name: "Please login first" }
+
+        // console.log(symbol, '<<< symbol nich ')
         const params = {
             access_key: '658610156ffa6b4c3353c27e8905eb19',
         }
-
         axios.get(`http://api.marketstack.com/v1/tickers/${symbol}/eod`, { params })
             .then(response => {
                 // console.log(response.data)
                 const apiResponse = response.data;
+
                 res.status(200).json({
                     apiResponse
                 })
@@ -72,35 +84,7 @@ class Controller {
                 console.error(error);
             });
     }
-    // static async midTrans(req, res, next) {
-    //     try {
-    //         let snap = new midtransClient.Snap({
-    //             // Set to true if you want Production Environment (accept real transaction).
-    //             isProduction: false,
-    //             serverKey: process.env.MIDTRANS_SERVER_KEY,
-    //         });
 
-    //         let parameter = {
-    //             transaction_details: {
-    //                 order_id: order.id,
-    //                 gross_amount: orderdetail.price,
-    //             },
-    //             credit_card: {
-    //                 secure: true,
-    //             },
-    //             customer_details: {
-    //                 first_name: "admin",
-    //             },
-    //         };
-
-    //         const midtransToken = await snap.createTransaction(parameter);
-    //         res.status(201).json({
-    //             midtransToken,
-    //         });
-    //     } catch (err) {
-    //         console.log(err);
-    //     }
-    // }
 }
 
 
