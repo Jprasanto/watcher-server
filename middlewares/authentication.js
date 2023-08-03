@@ -17,7 +17,7 @@ const authentication = async (req, res, next) => {
             email: result.email,
             role: result.role
         }
-        console.log(req.user, "AUTEN")
+        // console.log(req.user, "AUTEN")
         next();
     } catch (err) {
         console.log(err, "err authentication")

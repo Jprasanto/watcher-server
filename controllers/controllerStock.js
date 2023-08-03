@@ -1,7 +1,6 @@
 const { Watchlist, Composite, Ticker } = require('../models/index')
 const axios = require('axios')
-
-
+const getPagination = require('../helpers/pagination')
 
 class Controller {
     static async ihsgData(req, res, next) {
@@ -46,15 +45,15 @@ class Controller {
                     apiResponse
                 })
             }).catch(error => {
-                console.log(error);
+                console.log(error, "ini eror gaje");
             });
     }
     static async myWl(req, res, next) {
         // const { symbol } = req.params
         try {
             const { TickerId } = req.params
-            console.log(TickerId, 9898)
-            console.log(req.user, "<")
+            // console.log(TickerId, 9898)
+            // console.log(req.user, "<")
 
             const data = await Ticker.findByPk(+TickerId)
             if (!data) throw { name: "error not found" }
@@ -83,6 +82,60 @@ class Controller {
             .catch((error) => {
                 console.error(error);
             });
+    }
+    static async readTicker(req, res, next) {
+        try {
+            const { page } = req.query
+
+            const pageLength = 9
+            const { limit, offset } = getPagination(page - 1, pageLength);
+
+            const { access_token } = req.headers
+            if (!access_token) throw { name: "Please login first" }
+
+            const ticker = await Ticker.findAndCountAll({
+                limit,
+                offset
+            })
+            const { count: totalItems } = ticker
+            const currentPage = page ? +page : 0
+            const totalPages = Math.ceil(totalItems / limit)
+            res.status(200).json({
+                message: {
+                    currentPage,
+                    totalPages,
+                    ...ticker
+                }
+            })
+        } catch (err) {
+            console.log(err)
+            res.status(500).json({
+                message: "Internal Server Error"
+            })
+        }
+    }
+    static async readWl(req, res, next) {
+        try {
+            const { access_token } = req.headers
+            if (!access_token) throw { name: "Please login first" }
+
+            const wl = await Watchlist.findAll({
+                include: {
+                    model: Ticker
+                },
+                where: {
+                    UserId: req.user.id
+                }
+            })
+            res.status(200).json({
+                wl
+            })
+        } catch (err) {
+            console.log(err)
+            res.status(500).json({
+                message: "Internal Server Error"
+            })
+        }
     }
 
 }
