@@ -1,0 +1,83 @@
+[
+    {
+      "name": "BUKIT ASAM TBK.",
+      "date": "2023-08-02",
+      "open": 2730,
+      "close": 2740,
+      "volume": 12865900,
+      "high": 2760,
+      "low": 2720
+    },
+    {
+      "name": "BANK MANDIRI (PERSERO) TBK.",
+      "date": "2023-08-02",
+      "open": 5625,
+      "close": 5700,
+      "volume": 113306900,
+      "high": 5600,
+      "low": 3850
+    },
+    {
+      "name": "H. M. Sampoerna TBK.",
+      "date": "2023-08-02",
+      "open": 895,
+      "close": 890,
+      "volume": 3747500,
+      "high": 4850,
+      "low": 4770
+    },
+    {
+      "name": "Industri Jamu dan Farmasi Sido Muncul Tbk",
+      "date": "2023-08-02",
+      "open": 640,
+      "close": 615,
+      "volume": 8409000,
+      "high": 645,
+      "low": 610 
+    },
+    {
+      "name": "MAYORA INDAH",
+      "date": "2023-08-02",
+      "open": 750,
+      "close": 760,
+      "volume": 8620800,
+      "high": 780,
+      "low": 740
+    },
+    {
+      "name": "Adira Dinamika Multi Finance Tbk.",
+      "date": "2023-08-02",
+      "open": 12150,
+      "close": 11850,
+      "volume": 1315000,
+      "high": 12150,
+      "low": 11800
+    },
+    {
+      "name": "Indofood CBP Sukses Makmur Tbk.",
+      "date": "2023-08-02",
+      "open": 11075,
+      "close": 11175,
+      "volume": 61800000,
+      "high": 11225,
+      "low": 10950
+    },
+    {
+      "name": "Akasha Wira International Tbk.",
+      "date": "2023-08-02",
+      "open": 11800,
+      "close": 12300,
+      "volume": 3175000,
+      "high": 13475,
+      "low": 11800
+    },
+    {
+      "name": "Bank Central Asia Tbk.",
+      "date": "2023-08-02",
+      "open": 9125,
+      "close": 9200,
+      "volume": 556030000,
+      "high": 9200,
+      "low": 9125
+    }
+  ]

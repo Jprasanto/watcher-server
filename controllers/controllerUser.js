@@ -20,10 +20,12 @@ class Controller {
             const token = generateToken({
                 id: data.id,
                 email: data.email,
+                role: data.role
             })
             res.status(200).json({
                 access_token: token,
                 email: data.email,
+                role: data.role
             })
         } catch (err) {
             if (err.name === "Email is required" ||
